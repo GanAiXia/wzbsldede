@@ -1,0 +1,100 @@
+/* 顶部导航 */
+.topnav{
+    width: 19.1875rem;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-top: 4.5rem;
+    padding-bottom: 1rem;
+}
+.topnav div{
+    width: 6.0625rem;
+    height: 1.4375rem;
+    margin-right: 0.5rem;
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.4375rem;
+    border-radius: 0.2rem;
+    background-color: #0064a7;
+}
+.topnav div:nth-child(1){
+    background-color: #58c2f5;
+}
+.topnav div:nth-child(3){
+    margin-right: 0;
+    background-color: #89d3dc;
+}
+
+/* 手术科室 */
+.surgery{
+   width: 19.1875rem;
+   height: auto;
+   margin: 0 auto;
+   overflow: hidden; 
+}
+.surgery-top{
+width: 8rem;
+height: 1.1875rem;
+background: linear-gradient(to right, #bdeaff, #fff);
+margin-bottom: 0.625rem;
+line-height: 1.1875rem;
+}
+.surgery-top img{
+    width: 0.90625rem;
+    height: 1.03125rem;
+    margin-bottom: 0.1rem;
+}
+.surgery-top span{
+    color: #3e3a39;
+    font-size: 0.875rem;
+    padding-left: 0.1rem;
+}
+.keshi{
+    width: 99%;
+    height: auto;
+    border: 1px solid #a0a0a0;
+    margin-bottom: 0.9375rem;
+    border-radius: 0.2rem;
+}
+.keshi .keshi-title{
+    width: 96%;
+    margin: 0 auto;
+    border-bottom: 1px solid #a0a0a0;
+    position: relative;
+    padding: 0.3rem 0;
+    margin-bottom: 0.6rem;
+}
+.keshi .keshi-title span{
+    color: #0064a7;
+    font-size: 0.8125rem;
+    padding-left: 0.3rem;
+}
+.keshi .keshi-title img{
+    width: 0.3125rem;
+    height: 0.5625rem;
+    position: absolute;
+    right: 0.3rem;
+    top: 0.8rem
+}
+.keshi-list ul{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.keshi-list ul li{
+    list-style: none;
+    width: 25%;
+    height: 1.625rem;
+    text-align: center;
+}
+.keshi-list ul li a{
+    color: #3e3a39;
+    font-size: 0.875em;
+}
