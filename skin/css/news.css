@@ -13,6 +13,7 @@
     background:url(/skin/images/doctor/iconhome.png) 3% center no-repeat #fff; 
     background-size:5% auto; 
     padding-left: 1.9rem; 
+    border-bottom: 1px solid #dcdcdc;
 }
 .newdetails-tit>a{ font-size:0.8125rem; color:#3e3a39; }
 .newdetails-tit>a.hover{ color:#0164a7; }
@@ -21,6 +22,7 @@
 .list-news {
    width: 100%;
    height: auto; 
+   margin-top: 1rem;
 }
 .list-news .item{
     padding-bottom: 2rem;
@@ -38,6 +40,12 @@
 .list-news .item .cont{
     width: 19.25rem;
     margin: 0.7rem auto;
+}
+.list-news .item .pic{
+    width: 100%;
+}
+.list-news .item .pic img{
+    width: 100%;
 }
 .list-news .item .title a{
     color: #3e3a39;
@@ -57,3 +65,46 @@
 .page ul li.thisclass{background-color:#0164a7;color:#FFF;}
 .page ul li a:link{color:#414141;}
 .page ul li a:visited{color:#414141;}
+
+/* 新闻内页 */
+.article-news{
+    width: 100%;
+    color: #3e3a39;
+    margin-top: 0.375rem;
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+}
+.article-news .title{
+    width: 19.25rem;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+.article-news .title a{
+    color: #3e3a39;
+    font-size: 0.8125rem;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.3rem;
+}
+.article-news .cont{
+    width: 19.25rem;
+    margin: 0 auto;
+    font-size: 0.75rem;
+    text-align: justify;
+    line-height: 1.2rem;
+    text-indent: 2em;
+    padding-top: 0.5rem;
+    overflow: hidden;
+}
+.article-news .cont p{
+    width: 100%;
+    margin: 0.375rem auto;
+}
+.article-news .cont img{
+    width: 18rem;
+    height: auto;
+    margin: 0.16rem auto;
+    display: table-cell;
+    vertical-align: middle;
+}
