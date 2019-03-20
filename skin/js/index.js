@@ -1,12 +1,3 @@
-var swiper1 = new Swiper('.swiper-container', {
-  spaceBetween: 30,
-  centeredSlides: true,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
-  loop: true
-});
 var swiper2 = new Swiper('.swiper-container1', {
   spaceBetween: 30,
   centeredSlides: true,

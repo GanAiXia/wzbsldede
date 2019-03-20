@@ -1,0 +1,12 @@
+.swiper-container{
+    padding-top: 3.84375rem;
+}
+.swiper-container .swiper-pagination-bullet{
+    width: 10px;
+    height: 2px;
+    border-radius: 0;
+    bottom: 0;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 0;
+}

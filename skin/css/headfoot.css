@@ -64,12 +64,12 @@ body {
 
 a {
     text-decoration: none;
+    color: #3e3a39;
 }
 
 /* 头部css */
-
 /* 导航nav */
-.sp_header{height:2.90625rem;position: fixed;left: 0;top: 0; padding-top: 0.625rem; overflow:hidden;background:#fff;text-align: center;z-index: 1000; width:100%;border-bottom: 1px solid #dcdcdc;margin-bottom: 0.3125rem;}
+.sp_header{height:2.90625rem;margin: 0 auto;position: fixed;top: 0; padding-top: 0.625rem; overflow:hidden;background:#fff;text-align: center;z-index: 1000; width:20rem;border-bottom: 1px solid #dcdcdc;margin-bottom: 0.3125rem;}
 .sp_left{width: 3.4375rem;width: 15%; float:left;height:100%;}
 .sp_left img{width: 1.3125rem;margin-top: 0.59375rem;}
 .sp_logo{width: 13.15625rem;width: 69%; float:left;height:100%;border-right: 1px solid #dcdcdc;border-left: 1px solid #dcdcdc;}
@@ -82,7 +82,7 @@ a {
 .sp_nav_se span:nth-of-type(1){top:0.625rem;transform:rotate(45deg)}
 .sp_nav_se span:nth-of-type(2){width:0}
 .sp_nav_se span:nth-of-type(3){top:0.625rem;transform:rotate(-45deg)}
-.sjj_nav{position:fixed;z-index:19;background:#eee;width:100%;height:calc(100% - 5.2rem);font-size:0.875rem;line-height:2.5rem;top:-100%;left:0;overflow:auto;overflow-x:hidden;transition:top ease 0.35s;}
+.sjj_nav{position:fixed;z-index:19;background:#eee;width:20rem;margin: 0 auto; height:calc(100% - 5.2rem);font-size:0.875rem;line-height:2.5rem;top:-100%;overflow:auto;overflow-x:hidden;transition:top ease 0.35s;}
 .nav_show{top:3.53125rem}
 .sjj_nav>ul>li:first-child{overflow:hidden;border-top:0;list-style: none;}
 .sjj_nav>ul>li:first-child>a{float:left;width:calc(100% - 4.375rem)}
@@ -104,7 +104,7 @@ a {
 /* 底部 */
 /* 地图 */
 .footer{
-    width: 100%;
+    width: 20rem;
     height: auto;
     overflow: hidden;
     border-top: 1px solid #dcdcdc;
@@ -147,12 +147,12 @@ a {
 }
 /* 底部导航 */
 .footer .footer-nav{
-    width: 100%;
+    width: 20rem;
     height: 2.4125rem;
     z-index: 100;
     position: fixed;
     bottom: 0;
-    left: 0;
+    margin: 0 auto;
     background: -moz-linear-gradient(to top, #0266a9, #318ddf);
     background: -webkit-linear-gradient(to top, #0266a9, #318ddf);
     background: linear-gradient(to top, #0266a9, #318ddf);
@@ -174,4 +174,24 @@ a {
 .footer .footer-nav .footer-con img{
     height: 1.1rem;
     margin-bottom: 0.2rem;
+}
+@media screen and (min-width:359px) and (max-width:361px) {
+    html {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:374px) and (max-width:376px) {
+    html {
+        font-size: 18.75px;
+    }
+}
+@media screen and (min-width:410px) and (max-width:413px) {
+    html {
+        font-size: 20.6px;
+    }
+}
+@media screen and (min-width:413px) and (max-width:415px) {
+    html {
+        font-size: 20.7px;
+    }
 }

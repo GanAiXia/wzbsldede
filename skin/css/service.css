@@ -1,0 +1,53 @@
+.service{
+padding-top: 4.5rem;
+}
+.surgery{
+    width: 19.1875rem;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden; 
+    margin-bottom: 1rem;
+ }
+ .surgery-top{
+ width: 8rem;
+ height: 1.1875rem;
+ background: linear-gradient(to right, #bdeaff, #fff);
+ line-height: 1.1875rem;
+ }
+ .surgery-top img{
+     width: 0.90625rem;
+     height: 1.03125rem;
+     margin-bottom: 0.1rem;
+ }
+ .surgery-top span{
+     color: #3e3a39;
+     font-size: 0.875rem;
+     padding-left: 0.1rem;
+ }
+ .service .service-cont{
+    width: 100%;
+    height: auto;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 1.1875rem;
+}
+.service .service-cont .service-item{
+    width: 25%;
+    height: 4.5rem;
+    text-align: center;
+    color: #3e3a39;
+    font-size: 0.75rem;
+    margin-top: 1.125rem;
+}
+.service .service-cont .service-item .service-item-circle{
+    width: 3.25rem;
+    height: 3.25rem;
+    margin: 0 auto;
+    border: 1px solid #ceeafc;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #ceeafc;
+    margin-bottom: 0.4rem;
+    overflow: hidden;
+}
