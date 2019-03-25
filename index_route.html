@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit">
+    <title>到达指引</title>
+    <link rel="stylesheet" href="/skin/css/headfoot.css">
+    <link rel="stylesheet" href="/skin/css/route.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=syu4IxpbM5KYmMaei6stx9vLx0f87ibU"></script>
+
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="sp_header">
+        <div class="sp_left"><a href="#"><img src="/skin/images/left-arrow.png" alt="返回"></a></div>
+        <div class="sp_logo"><a href="/"><img src="/skin/images/logo.png" alt=""></a></div>
+        <div class="sp_nav"> <span></span> <span></span> <span></span> </div>
+    </div>
+    <div class="sjj_nav">
+        <ul>
+            <li> <a href="#">首页</a>
+            </li>
+            <li> <a href="">伯思立医生</a><i class="sp_nav_xjb"></i>
+                <ul>
+                    <li><a href="">手术科室</a><i class="sp_nav_xjb"></i>
+                        <ul>
+                            <li><a href="">美容外科</a></li>
+                            <li><a href="">口腔科</a></li>
+                            <li><a href="">外科</a></li>
+                            <li><a href="">骨科</a></li>
+                            <li><a href="">妇科</a></li>
+                            <li><a href="">眼科</a></li>
+                            <li><a href="">耳鼻咽喉科</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">非手术科室</a><i class="sp_nav_xjb"></i>
+                        <ul>
+                            <li><a href="">美容皮肤科</a></li>
+                            <li><a href="">内科</a></li>
+                            <li><a href="">儿科</a></li>
+                            <li><a href="">预防保健科</a></li>
+                            <li><a href="">护理</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">诊断相关科室</a><i class="sp_nav_xjb"></i>
+                        <ul>
+                            <li><a href="">医学检验科</a></li>
+                            <li><a href="">医学影像科</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="">新闻资讯</a></li>
+            <li><a href="">特色项目</a></li>
+            <li><a href="">就医环境</a></li>
+            <li><a href="">就医指南</a><i class="sp_nav_xjb"></i>
+                <ul>
+                    <li><a href="">预约挂号</a></li>
+                    <li><a href="">就诊须知</a></li>
+                    <li><a href="">门诊流程</a></li>
+                    <li><a href="">住院流程</a></li>
+                </ul>
+            </li>
+            <li><a href="">医疗服务</a></li>
+            <li><a href="">健康信息</a></li>
+            <li><a href="">到达指引</a></li>
+        </ul>
+    </div>
+
+    <!-- 主体内容 -->
+    <div class="contain">
+        <!-- 面包屑导航 -->
+        <div class="newdetails-tit">
+            <a href="http://sn.bdlyy.cn/">主页</a> &gt; <a href="/zjtd/">医护团队</a> &gt; <a href="/kqk/">美容牙科</a> &gt;
+        </div>
+
+        <!-- 热线地址 -->
+        <div class="route-cont">
+            <div class="cont-top">
+                <span class="left">咨询热线</span><span class="right">0577-8666630</span>
+            </div>
+            <div class="cont-bottom">
+                <span class="left">医院地址</span><span class="right">温州市龙湾区状元街道机场大道1697号</span>
+            </div>
+        </div>
+
+        <!-- 地图 -->
+        <div class="route-map">
+            <div id="allmap"></div>
+        </div>
+
+        <!-- 火车到院 -->
+        <div class="route-cont">
+            <div class="cont-title">
+                <img src="/skin/images/map/train.png" alt="火车到达">
+                <span class="top">火车到院</span>
+            </div>
+            <div class="cont-top">
+                <span class="left">温州南站</span><span class="right">乘坐82路、91路公交车至状元公交枢纽站下车。</span>
+            </div>
+            <div class="cont-bottom">
+                <span class="left">温州火车站</span><span class="right">乘坐21路、130路、22路公交车至耐宝路站下车。</span>
+            </div>
+            <div class="cont-line"></div>
+        </div>
+
+        <!-- 机场出发 -->
+        <div class="route-cont">
+            <div class="cont-title">
+                <img src="/skin/images/map/airport.png" alt="机场出发">
+                <span class="top">机场出发</span>
+            </div>
+            <div class="cont-top">
+                <span class="right">温州龙湾国际机场出发</span>
+            </div>
+            <div class="cont-bottom">
+                <span class="left">公交路线</span><span class="right">乘坐41路公交车至耐宝路站下车。</span>
+            </div>
+            <div class="cont-line"></div>
+        </div>
+
+        <!-- 长途汽车 -->
+        <div class="route-cont">
+            <div class="cont-title">
+                <img src="/skin/images/map/bus.png" alt="长途汽车">
+                <span class="top">长途汽车</span>
+            </div>
+            <div class="cont-top">
+                <span class="left">温州汽车东站</span><span class="right">乘坐21路、22路公交车至耐宝路站下车。</span>
+            </div>
+            <div class="cont-top">
+                    <span class="left">温州汽车新南站</span><span class="right">乘坐21路、130路、22路公交车至耐宝路站下车。</span>
+                </div>
+            <div class="cont-bottom">
+                <span class="left">温州客运中心</span><span class="right">乘坐21路公交车至耐宝路站下车。</span>
+            </div>
+        </div>
+
+    </div>
+    <!-- 底部 -->
+    <div class="footer">
+        <!-- 地址 -->
+        <div class="addr">
+            <a href="http://f.amap.com/1PJhQ_08F6VEZ"> <img src="/skin/images/addr.png" alt="" width="100%"></a>
+            <div class="addr-cont">
+                <p><span>门诊时间：</span>8:00-16:30 </p>
+                <p><span>医院地址：</span>温州市龙湾区状元街道机场大道1697号</p>
+                <p><span>咨询热线：</span>0577-86666630 400-1516-266</p>
+            </div>
+        </div>
+        <!-- 版权备案号 -->
+        <div class="power">
+            <p><a>本网站最终解释权归温州伯思立医院所有</a> </p>
+            <p><a>（温3）医广【2018】第08-29-01号</a></p>
+            <p><a>浙ICP备16029367号-1</a></p>
+        </div>
+        <!-- 底部导航 -->
+        <div class="footer-nav">
+            <div class="footer-con">
+                <img src="/skin/images/foot-home.png" alt="" srcset="">
+                <span>首页</span>
+            </div>
+            <div class="footer-con">
+                <img src="/skin/images/foot-zxzx.png" alt="">
+                <span>在线咨询</span>
+            </div>
+            <div class="footer-con">
+                <img src="/skin/images/foot-dh.png" alt="" srcset="">
+                <span>一键通话</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="/skin/js/jquery.min.js"></script>
+    <script src="/skin/js/swiper.min.js"></script>
+    <script src="/skin/js/common.js"></script>
+
+    <script type="text/javascript">
+        // 百度地图API功能
+        var map = new BMap.Map("allmap");
+        map.centerAndZoom(new BMap.Point(120.771269,27.97349), 18);
+        // 添加带有定位的导航控件
+        var navigationControl = new BMap.NavigationControl({
+          // 靠左上角位置
+          anchor: BMAP_ANCHOR_TOP_LEFT,
+          // LARGE类型
+          type: BMAP_NAVIGATION_CONTROL_LARGE,
+          // 启用显示定位
+          enableGeolocation: true
+        });
+        map.addControl(navigationControl);
+        // 添加定位控件
+        var geolocationControl = new BMap.GeolocationControl();
+        geolocationControl.addEventListener("locationSuccess", function(e){
+          // 定位成功事件
+          var address = '';
+          address += e.addressComponent.province;
+          address += e.addressComponent.city;
+          address += e.addressComponent.district;
+          address += e.addressComponent.street;
+          address += e.addressComponent.streetNumber;
+          alert("当前定位地址为：" + address);
+        });
+        geolocationControl.addEventListener("locationError",function(e){
+          // 定位失败事件
+          alert(e.message);
+        });
+        map.addControl(geolocationControl);
+      </script>
+
+</body>
+</html>

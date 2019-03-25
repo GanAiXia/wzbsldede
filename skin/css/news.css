@@ -34,15 +34,16 @@
     padding-bottom: 0;
 }
 .list-news .item .title{
-    width: 19.25rem;
+    width: 18.4rem;
     margin: 0 auto;
 }
 .list-news .item .cont{
-    width: 19.25rem;
-    margin: 0.7rem auto;
+    width: 18.4rem;
+    margin: 0.4rem auto 0.7rem;
 }
 .list-news .item .pic{
-    width: 100%;
+    width: 18.4rem;
+    margin: 0 auto;
 }
 .list-news .item .pic img{
     width: 100%;
@@ -50,6 +51,11 @@
 .list-news .item .title a{
     color: #3e3a39;
     font-size: 0.8125rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    width: 90%;
 }
 .list-news .item .cont p{
     color: #595757;
@@ -102,8 +108,8 @@
     margin: 0.375rem auto;
 }
 .article-news .cont img{
-    width: 18rem;
-    height: auto;
+    max-width: 18rem;
+    height: auto!important;
     margin: 0.16rem auto;
     display: table-cell;
     vertical-align: middle;

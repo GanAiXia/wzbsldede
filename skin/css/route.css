@@ -1,0 +1,87 @@
+.contain {
+    padding-top: 3.7rem;
+    width: 20rem;
+    height: auto;
+    overflow: hidden;
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 0.3125rem;
+}
+
+/* 面包屑 */
+.newdetails-tit {
+    width: 100%;
+    height: 2.5rem;
+    margin: 0 auto;
+    line-height: 2.5rem;
+    background: url(/skin/images/doctor/iconhome.png) 3% center no-repeat #fff;
+    background-size: 5% auto;
+    padding-left: 1.9rem;
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 0.8125rem;
+}
+
+.newdetails-tit>a {
+    font-size: 0.8125rem;
+    color: #3e3a39;
+}
+
+.newdetails-tit>a.hover {
+    color: #0164a7;
+}
+
+/* 电话地址 */
+.route-cont {
+    width: 18.75rem;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 1.25rem;
+}
+
+.route-cont span {
+    color: #3e3a39;
+    font-size: 0.8125rem;
+    line-height: 1.4875rem;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+}
+
+.route-cont .left {
+    color: #fff;
+    background-color: #3da8f0;
+    margin-right: 0.3rem;
+}
+/* 地图 */
+.route-map{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 1.25rem;
+}
+
+/* 到院 */
+.route-cont .cont-title img{
+    width: 1.34375rem;
+    height: 1.53125rem;
+}
+.route-cont .top{
+    background-color: #cdeaff;
+    font-weight: bold;
+    border-radius: 0;
+    padding: 0.2rem 0.5rem;
+}
+.route-cont .cont-title{
+    margin-bottom: 0.5rem;
+}
+.route-cont .cont-top{
+    margin-bottom: 0.2rem;
+}
+.route-cont .cont-bottom{
+    margin-bottom: 1.625rem;
+}
+.route-cont .cont-line{
+    border-bottom: 1px dashed #dcdcdc;
+    width: 13.75rem;
+    margin: 0 auto;
+}
+#allmap {width: 20rem;height: 13.875rem;overflow: hidden;}
