@@ -278,3 +278,33 @@ padding-top: 4.5rem;
     color: #3aa5ef;
     font-size: 1rem;
 }
+
+/* 外科 */
+.waike{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+}
+.waike div{
+    width: 50%;
+}
+.waike .waike-right h3{
+    padding-top: 1.4rem;
+    color: #3e3a39;
+    font-size: 0.9375rem;
+}
+.waike .waike-right img{
+    height: 1.3rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.4rem;
+}
+.waike .waike-right p{
+    text-align: center;
+    color: #3e3a39;
+    font-size: 0.9375rem;
+}
+.waike .waike-right .waike-right-xiao{
+    font-size: 0.8rem;
+}

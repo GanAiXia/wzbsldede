@@ -85,3 +85,9 @@
     margin: 0 auto;
 }
 #allmap {width: 20rem;height: 13.875rem;overflow: hidden;}
+.BMap_bubble_content{
+    font-size: 12px;
+}
+.BMap_bubble_title{
+    font-size: 15px;
+}
