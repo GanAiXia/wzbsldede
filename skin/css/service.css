@@ -308,3 +308,16 @@ padding-top: 4.5rem;
 .waike .waike-right .waike-right-xiao{
     font-size: 0.8rem;
 }
+
+/* 普外科 */
+.puwaike .waike-right p{
+    font-size: 0.8125rem;
+    padding: 0;
+    line-height: 1.5rem;
+}
+.puwaike .waike-right h3{
+    font-size: 2.8rem;
+    padding-top: 0;
+    line-height: 3rem;
+    font-family: 'SimSun';
+}

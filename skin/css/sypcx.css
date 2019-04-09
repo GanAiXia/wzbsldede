@@ -1,0 +1,584 @@
+/* 双眼皮成型术 */
+.sypcx {
+    width: 20rem;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 3.84375rem;
+    padding-bottom: 1.8125rem;
+}
+
+/* 顶部banner */
+.topbanner {
+    width: 100%;
+    height: auto;
+}
+
+/* 双眼皮有多神奇？ */
+.shenqi {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin-top: 1.375rem;
+    overflow: hidden;
+}
+
+.shenqi-title {
+    width: 8.9375rem;
+    margin: 0 auto;
+}
+
+.shenqi-title .title-son {
+    width: 6.5rem;
+    height: 1.25rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    position: relative;
+    text-align: center;
+}
+
+.title-son .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3.25rem;
+    height: 100%;
+    background: linear-gradient(to right, #7e9dcb, #365581);
+}
+
+.title-son .right {
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 3.25rem;
+    height: 100%;
+    background: linear-gradient(to left, #7e9dcb, #365581);
+}
+
+.title-son .center {
+    color: #fff;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.shenqi .shenqi-cont {
+    width: 100%;
+    height: 13.3125rem;
+    margin-top: 1rem;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.shenqi .shenqi-cont .shenqi-left {
+    width: 6rem;
+    height: auto;
+    position: absolute;
+    left: 0rem;
+    top: 0;
+    z-index: 10;
+}
+
+.shenqi .shenqi-cont .shenqi-left p {
+    color: #365581;
+}
+
+.shenqi .shenqi-cont .shenqi-left span {
+    display: inline-block;
+    background: #85a1d0;
+    margin-top: 0.7125rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 0.3rem;
+    font-size: 0.9375rem;
+    line-height: 1.1rem;
+}
+
+.shenqi .shenqi-cont .shenqi-left span:nth-child(3) {
+    padding: 0.2rem 1rem;
+}
+
+.shenqi .shenqi-cont .shenqi-center {
+    position: absolute;
+    top: 0.1rem;
+    width: 10.5rem;
+    left: 50%;
+    margin-left: -5.25rem;
+    z-index: 1;
+}
+
+.shenqi .shenqi-cont .shenqi-right {
+    width: 6rem;
+    height: auto;
+    position: absolute;
+    right: 0rem;
+    top: 0;
+    z-index: 10;
+}
+
+.shenqi .shenqi-cont .shenqi-right p {
+    color: #89d3dc;
+}
+
+.shenqi .shenqi-cont .shenqi-right span {
+    background-color: #89d3dc;
+    display: inline-block;
+    margin-top: 0.7125rem;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.3rem;
+    font-size: 0.9375rem;
+    line-height: 1.1rem;
+}
+
+/* “伪装”出来的双眼皮 */
+.weizhuang {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    background-color: #cce7ff;
+    padding-top: 1.375rem;
+    padding-bottom: 1.5rem;
+}
+
+.weizhuang .shenqi-title {
+    width: 10.75rem;
+}
+
+.weizhuang .shenqi-title .title-son {
+    width: 5.4rem;
+}
+
+.weizhuang .title-son .left {
+    width: 2.7rem;
+}
+
+.weizhuang .title-son .right {
+    width: 2.7rem;
+}
+
+.weizhuang-cont {
+    padding-top: 1.25rem;
+    width: 18.25rem;
+    margin: 0 auto;
+    height: auto;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.weizhuang-cont .weizhuang-item {
+    width: 8.5rem;
+    background-color: #fff;
+    padding-top: 0.375rem;
+    margin-right: 1.25rem;
+    margin-bottom: 1rem;
+    color: #3e3a39;
+    font-size: 0.85rem;
+    padding-bottom: 0.5rem;
+}
+
+.weizhuang-cont .weizhuang-item p {
+    line-height: 1.1rem;
+}
+
+.weizhuang-cont .weizhuang-item .title {
+    color: #30517e;
+    line-height: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+.weizhuang-cont .weizhuang-item:nth-child(2n) {
+    margin-right: 0;
+}
+
+.weizhuang-cont .weizhuang-item hr {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #30517e;
+    margin-bottom: 0.3rem;
+}
+
+.stpbutton {
+    background-image: url(/skin/images/sypcx/button.jpg);
+    background-repeat: repeat-x;
+    font-size: 1.125rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+    box-shadow: 0 0 6px #999;
+}
+
+.stpbutton a {
+    color: #30517e;
+}
+
+.stpbutton img {
+    width: 1.5rem;
+}
+
+/* 如何撩倒你的男神？ */
+.liaodao {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    background-color: #fff;
+    padding-top: 1.375rem;
+    padding-bottom: 1.5rem;
+}
+
+.liaodao .shenqi-title {
+    width: 15.8rem;
+    text-align: center;
+}
+
+.liaodao .shenqi-title img {
+    width: 64%;
+}
+
+.liaodao .shenqi-title .title-son {
+    width: 15.8rem;
+}
+
+.liaodao .shenqi-title .title-son .left {
+    width: 50%;
+}
+
+.liaodao .shenqi-title .title-son .right {
+    width: 50%;
+}
+
+.liaodao .liaodao-cont {
+    width: 19.1875rem;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+.liaodao-cont .liaodao-title {
+    width: 15.375rem;
+    height: 3rem;
+    position: relative;
+}
+
+.liaodao-cont .liaodao-title .title-bgc {
+    width: 100%;
+    height: 0.375rem;
+    background-color: #cce7ff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.liaodao-cont .liaodao-title .title-img{
+    position: absolute;
+    left: 0;
+    bottom: 0.15rem;
+    z-index: 10;
+    width: 0.75rem;
+}
+.liaodao-cont .liaodao-title h3{
+    color: #30517e;
+    position: absolute;
+    left: 1.3rem;
+    bottom: 0rem;
+    z-index: 10;
+    line-height: 1.2rem;
+}
+.liaodao-cont .liaodao-title span {
+    color: #30517e;
+    font-size: 0.8125rem;
+    z-index: 10;
+    bottom: 0rem;
+    left: 5rem;
+    line-height: 0.9rem;
+    position: absolute;
+}
+.liaodao-cont .liaodao-title-two{
+    width: 12.4rem;
+}
+.liaodao-cont .liaodao-title-two span{
+    left: 5.3rem;
+}
+.liaodao-cont .liaodao-bottom{
+    width: 100%;
+    height: 8rem;
+    position: relative;
+    overflow: hidden;
+    margin-top: 0.75rem;
+}
+.liaodao-bottom .bottom-img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 8.825rem;
+    z-index: 10;
+}
+.liaodao-bottom .bottom-con{
+    width: 18.8125rem;
+    height: 7.0625rem;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #89d3dc;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.liaodao-bottom .bottom-con p{
+    width: 9.4375rem;
+    color: #fff;
+    font-size: 0.75rem;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+}
+.liaodao-bottom-two .bottom-con{
+    height: 7.3rem;
+} 
+.liaodao-bottom-two .bottom-img{
+    left: 0;
+}
+.liaodao-bottom-two .bottom-con{
+    right: 0;
+    left: inherit;
+}
+.liaodao-bottom-two .bottom-con p{
+    padding-left: 9rem;
+    line-height: 1rem;
+}
+.liaodao-shihe{
+    color: #3e3a39;
+    font-size: 0.8125rem;
+    padding: 0.3rem;
+    border: 2px solid #7ab6e9;
+    border-radius: 0.5rem;
+    margin-top: 0.75rem;
+    text-align: justify;
+}
+.anniu {
+    width: 100%;
+    text-align: center;
+    margin-top: 1.25rem;
+    padding-bottom: 0.75rem;
+}
+/* 从平凡到惊艳 */
+.jingyan{
+    width: 100%;
+    height: 18.125rem;
+    position: relative;
+    overflow: hidden;
+    background-color: #cce7ff;
+}
+.jingyan .shenqi-title{
+    width: 7.375rem;
+    margin-top: 1.25rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -3.6875rem;
+    z-index: 100;
+}
+.jingyan .shenqi-title .title-son{
+    width: 100%;
+}
+.jingyan .shenqi-title .title-son .left{
+    width:50%;
+}
+.jingyan .shenqi-title .title-son .right{
+    width: 50%;
+}
+.jingyan .jingyan-topimg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.jingyan .jingyan-botimg{
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}
+.jingyan .jingyan-xiufu,.jingyan .jingyan-yanjianju,.jingyan .jingyan-heiyanqiu,.jingyan .jingyan-shenyun{
+    position: absolute;
+    width: 3rem;
+    height: 2.6rem;
+    left: 2.5rem;
+    top: 5rem;
+    z-index: 10;
+    border-radius: 2rem;
+    border: 2px solid #fff;
+    text-align: center;
+    color: #3e3a39;
+    font-size: 0.9375rem;
+    padding-top: 0.4rem;
+    line-height: 1.2rem;
+}
+.jingyan .jingyan-yanjianju{
+    left: initial;
+    right: 1.3rem;
+    width: 3.5rem;
+    height: 3.1rem;
+    top: 7rem;
+}
+.jingyan .jingyan-heiyanqiu{
+    left: 0.3rem;
+    width: 4.4rem;
+    height: 3.6rem;
+    top: 11rem;
+    border-radius: 4rem;
+    padding-top: 0.8rem;
+}
+.jingyan .jingyan-shenyun{
+    left: initial;
+    right: 0.5rem;
+    width: 4.4rem;
+    height: 3.4rem;
+    border-radius: 4rem;
+    padding-top: 1rem;
+    top: 12.5rem;
+}
+
+/* 睛彩夺目 才是焦点 */
+.jiaodian{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 2rem;
+}
+.jiaodian .shenqi-title{
+    width: 10.125rem;
+    padding-bottom: 1.125rem;
+}
+
+/* 伯思立美眼四大优势 */
+.youshi{
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    padding-top: 2rem;
+}
+.youshi .shenqi-title{
+    width: 12.5625rem;
+    text-align: center;
+}
+.youshi .shenqi-title .title-son{
+    width: 100%;
+}
+.youshi .shenqi-title .title-son .left{
+    width: 50%;
+}
+.youshi .shenqi-title .title-son .right{
+    width: 50%;
+}
+.youshi .youshi-cont{
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.youshi-cont .youshi-item{
+    width: 9.125rem;
+    height: auto;
+    margin: 0.5rem 0.4375rem;
+    text-align: center;
+    background-color: #89d3dc;
+    border-radius: 0.3rem;
+    color: #fff;
+    padding-bottom: 0.3rem;
+}
+.youshi-cont .youshi-item .left{
+    float: left;
+    font-size: 2rem;
+    padding-top: 0.2rem;
+    padding-left: 0.5rem;
+}
+.youshi-cont .youshi-item .right{
+    float: right;
+    padding-right: 1.4rem;
+    font-size: 0.75rem;
+    padding-top: 0.4rem;
+    line-height: 1.1rem;
+}
+.youshi-cont .youshi-item:nth-child(2) .right{
+    padding-right: 1.2rem;
+}
+.youshi-cont .youshi-item:nth-child(3) .right{
+    padding-right: 0.2rem;
+}
+.youshi-cont .youshi-item:nth-child(4) .right{
+    padding-right: 0.6rem;
+}
+
+/* 伯思立眼部整形医师团队 */
+.doctor{
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    padding-top: 1.75rem;
+}
+.doctor .shenqi-title{
+    width: 12.75rem;
+}
+.doctor .shenqi-title .title-son{
+    width: 94%;
+}
+.doctor .shenqi-title .title-son .left{
+    width: 50%;
+}
+.doctor .shenqi-title .title-son .right{
+  width: 50%;
+} 
+.doctor-cont{
+    width: 100%;
+    margin-top: 1.375rem;
+}
+#sw-sypcx .swiper-slide{
+    position: relative;
+}
+#sw-sypcx .swiper-slide .doctor-slide{
+    position: absolute;
+    left: 1.2rem;
+    top: 0.6rem;
+}
+.swiper-slide .doctor-slide h3{
+    display: inline-block;
+    color: #30517e;
+    font-size: 1.375rem;
+}
+.swiper-slide .doctor-slide span{
+    color: #3e3a39;
+    font-size: 1.125rem;
+    padding-left: 0.6rem;
+}
+.swiper-slide .doctor-slide .line{
+    width: 2.125rem;
+    height: 0.1875rem;
+    background-color: #fff;
+    margin-top: 0.275rem;
+    margin-bottom: 0.4625rem;
+}
+.swiper-slide .doctor-slide .chenghao{
+    color: #3e3a39;
+    font-size: 0.875rem;
+}
+.swiper-slide .doctor-slide .shanchang{
+    color: #666464;
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+}
+.swiper-slide .doctor-slide .gao{
+    height: 0.5rem;
+}
+.swiper-slide .doctor-slide .xiaogao{
+    height: 0.3rem;
+}
+.swiper-slide .doctor-slide a{
+    font-size: 0.9375rem;
+    color: #30517e;
+    padding: 0.2rem 0.4rem;
+    border: 1px solid #30517e;
+    border-radius: 0.3rem;
+    margin-top: 0.3rem;
+}
