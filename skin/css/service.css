@@ -704,3 +704,24 @@
 #mrwk-doc .second-cont{
     border: 0;
 }
+
+/* 手外科 */
+.third-first-kqk .swk-zl{
+    flex-wrap: nowrap;
+}
+.third-first-kqk .swk-zl .kqk-item{
+    width: 4rem;
+    margin-right: 0.95rem;
+}
+.third-first-kqk .swk-zl .kqk-item .item-bg{
+    width: 4rem;
+}
+.third-first-kqk .swk-zl .kqk-item .item-line{
+    width: 4rem;
+}
+.third-first-kqk .swk-zl .kqk-item:nth-child(3){
+    margin-right: 0.95rem;
+}
+.third-first-kqk .swk-zl .kqk-item:nth-child(4){
+    margin: 1.5rem 0 0 0;
+}
