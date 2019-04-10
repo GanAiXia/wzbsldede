@@ -1,31 +1,36 @@
 /* 列表页 */
-.service{
-padding-top: 4.5rem;
+.service {
+    padding-top: 4.5rem;
 }
-.surgery{
+
+.surgery {
     width: 19.1875rem;
     height: auto;
     margin: 0 auto;
-    overflow: hidden; 
+    overflow: hidden;
     margin-bottom: 1rem;
- }
- .surgery-top{
- width: 8rem;
- height: 1.1875rem;
- background: linear-gradient(to right, #bdeaff, #fff);
- line-height: 1.1875rem;
- }
- .surgery-top img{
-     width: 0.90625rem;
-     height: 1.03125rem;
-     margin-bottom: 0.1rem;
- }
- .surgery-top span{
-     color: #3e3a39;
-     font-size: 0.875rem;
-     padding-left: 0.1rem;
- }
- .service .service-cont{
+}
+
+.surgery-top {
+    width: 8rem;
+    height: 1.1875rem;
+    background: linear-gradient(to right, #bdeaff, #fff);
+    line-height: 1.1875rem;
+}
+
+.surgery-top img {
+    width: 0.90625rem;
+    height: 1.03125rem;
+    margin-bottom: 0.1rem;
+}
+
+.surgery-top span {
+    color: #3e3a39;
+    font-size: 0.875rem;
+    padding-left: 0.1rem;
+}
+
+.service .service-cont {
     width: 100%;
     height: auto;
     display: -webkit-flex;
@@ -34,7 +39,8 @@ padding-top: 4.5rem;
     flex-wrap: wrap;
     padding-bottom: 1.1875rem;
 }
-.service .service-cont .service-item{
+
+.service .service-cont .service-item {
     width: 25%;
     height: 4.5rem;
     text-align: center;
@@ -42,7 +48,8 @@ padding-top: 4.5rem;
     font-size: 0.75rem;
     margin-top: 1.125rem;
 }
-.service .service-cont .service-item .service-item-circle{
+
+.service .service-cont .service-item .service-item-circle {
     width: 3.25rem;
     height: 3.25rem;
     margin: 0 auto;
@@ -54,12 +61,13 @@ padding-top: 4.5rem;
 }
 
 /* 科室 内科 */
-.contain{
+.contain {
     width: 20rem;
     padding-top: 4.5rem;
     overflow: hidden;
 }
-.tophead{
+
+.tophead {
     width: 100%;
     text-align: center;
     padding-bottom: 1rem;
@@ -67,29 +75,34 @@ padding-top: 4.5rem;
     color: #3e3a39;
     font-size: 1.125rem;
 }
-.topcont{
+
+.topcont {
     width: 19.25rem;
     margin: 0 auto;
     padding-top: .5rem;
 }
-.topcont p{
+
+.topcont p {
     padding-bottom: 0.5rem;
     color: #3e3a39;
     text-align: justify;
     font-size: 0.75rem;
 }
-.line{
+
+.line {
     height: 0.25rem;
     width: 100%;
     border-top: 1px solid #dcdcdc;
     border-bottom: 1px solid #dcdcdc;
-    margin:1.5rem auto;
+    margin: 1.5rem auto;
 }
-.second{
+
+.second {
     width: 19.25rem;
     margin: 0 auto;
 }
-.second .second-title{
+
+.second .second-title {
     width: 16.875rem;
     margin: 0 auto;
     border-radius: 0.2rem;
@@ -100,45 +113,52 @@ padding-top: 4.5rem;
     line-height: 2rem;
     margin-bottom: 0.875rem;
 }
-.second .second-cont{
+
+.second .second-cont {
     width: 100%;
     height: 10.25rem;
     margin: 0 auto;
     border: 1px solid #dcdcdc;
     position: relative;
 }
-.second .second-cont .cont-left{
+
+.second .second-cont .cont-left {
     padding-left: 0.5rem;
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
 }
-.second .second-cont .cont-right{
+
+.second .second-cont .cont-right {
     position: absolute;
     right: 0;
-    bottom:0;
+    bottom: 0;
 }
-.second .second-cont .cont-left .head{
+
+.second .second-cont .cont-left .head {
     padding-top: 0.8rem;
     color: #3e3a39;
 }
-.second .second-cont .cont-left .head h2{
-   color: #0064a7; 
-   display: inline-block;
-   margin-right: 0.5rem;
+
+.second .second-cont .cont-left .head h2 {
+    color: #0064a7;
+    display: inline-block;
+    margin-right: 0.5rem;
 }
-.second .second-cont .cont-left .headbottom{
+
+.second .second-cont .cont-left .headbottom {
     color: #3e3a39;
     font-size: 0.75rem;
     line-height: 1.3rem;
 }
 
-.second .second-cont .cont-left .shanchang{
+.second .second-cont .cont-left .shanchang {
     color: #727171;
     font-size: 0.8125rem;
 }
-.second .second-cont .cont-left .xiangqing{
+
+.second .second-cont .cont-left .xiangqing {
     color: #0064a7;
     border: 1px solid #0064a7;
     font-size: 0.75rem;
@@ -147,22 +167,26 @@ padding-top: 4.5rem;
     position: absolute;
     bottom: 0.5rem;
 }
+
 .second .second-bottom {
     text-align: center;
     padding-top: 0.625rem;
 }
-.second .second-bottom a{
+
+.second .second-bottom a {
     color: #3e3a39;
     font-size: 0.8125rem;
     padding: 0.4rem 0.7rem;
     background-color: #cdeaff;
 }
-.third{
+
+.third {
     width: 19.25rem;
     margin: 0 auto;
     text-align: center;
 }
-.third span{
+
+.third span {
     font-size: 0.9375rem;
     color: #fff;
     background-color: #0064a7;
@@ -170,23 +194,28 @@ padding-top: 4.5rem;
     padding: 0.3rem 0.5rem;
     border-radius: 0.2rem;
 }
-.third p{
+
+.third p {
     font-size: 0.8125rem;
     padding-bottom: 0.7rem;
     padding-top: 0.3rem;
     color: #3e3a39;
     text-align: justify;
 }
-.third-second span{
+
+.third-second span {
     background-color: #89d3dc;
 }
+
 .third-third {
     padding-bottom: 1.75rem;
 }
-.third-third span{
+
+.third-third span {
     background-color: #58c2f5;
 }
-.third-first .first-ciecle{
+
+.third-first .first-ciecle {
     width: 100%;
     display: -webkit-flex;
     display: flex;
@@ -194,7 +223,8 @@ padding-top: 4.5rem;
     flex-wrap: nowrap;
     padding-top: 1rem;
 }
-.third-first .first-ciecle .circle{
+
+.third-first .first-ciecle .circle {
     width: 4.03125rem;
     height: 4.03125rem;
     margin-right: 0.5em;
@@ -202,44 +232,55 @@ padding-top: 4.5rem;
     border-radius: 2rem;
     position: relative;
 }
-.third-first .first-ciecle .circle:nth-last-child(1){
+
+.third-first .first-ciecle .circle:nth-last-child(1) {
     margin-right: 0;
     border: 1px solid #d3ecfc;
     box-shadow: 0 0 5px #d3ecfc;
 }
-.third-first .first-ciecle .circle img{
+
+.third-first .first-ciecle .circle img {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
 }
-.third-first .first-ciecle .circle p{
- position: absolute;
- left: 50%;
- margin-left: -1rem;
- line-height: 3.5rem;
+
+.third-first .first-ciecle .circle p {
+    position: absolute;
+    left: 50%;
+    margin-left: -1rem;
+    line-height: 3.5rem;
 }
-.third-first .first-ciecle .circle:nth-last-child(1) p{
+
+.third-first .first-ciecle .circle:nth-last-child(1) p {
     margin-left: -1.54rem;
 }
-.third-fourth{
+
+.third-fourth {
     width: 17.5rem;
     height: auto;
     overflow: hidden;
     padding-bottom: 1.5rem;
 }
-.third-fourth .cont-left,.third-fourth .cont-right{
+
+.third-fourth .cont-left,
+.third-fourth .cont-right {
     padding-top: 1rem;
     display: -webkit-flex;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
 }
-.third-fourth .cont-left .left,.third-fourth .cont-right .left{
+
+.third-fourth .cont-left .left,
+.third-fourth .cont-right .left {
     width: 5.8125rem;
     height: 5.8125rem;
 }
-.third-fourth .cont-left .center,.third-fourth .cont-right .center{
+
+.third-fourth .cont-left .center,
+.third-fourth .cont-right .center {
     width: 2rem;
     height: 0;
     border-top: 1px solid #a0a0a0;
@@ -247,11 +288,15 @@ padding-top: 4.5rem;
     margin-left: -0.3rem;
     transform: rotate(135deg)
 }
-.third-fourth .cont-left .right,.third-fourth .cont-right .right{
+
+.third-fourth .cont-left .right,
+.third-fourth .cont-right .right {
     width: 10.45rem;
     margin-left: -0.3rem;
 }
-.third-fourth .cont-left .right .top,.third-fourth .cont-right .right .top{
+
+.third-fourth .cont-left .right .top,
+.third-fourth .cont-right .right .top {
     width: 100%;
     height: 1.6rem;
     border-bottom: 1px solid #a0a0a0;
@@ -259,7 +304,9 @@ padding-top: 4.5rem;
     font-weight: bold;
     font-size: 0.9rem;
 }
-.third-fourth .cont-left .right .bottom,.third-fourth .cont-right .right .bottom{
+
+.third-fourth .cont-left .right .bottom,
+.third-fourth .cont-right .right .bottom {
     width: 100%;
     color: #3e3a39;
     font-size: 0.8125rem;
@@ -267,57 +314,303 @@ padding-top: 4.5rem;
     padding-top: 0.5rem;
     text-align: justify;
 }
-.third-fourth .cont-right .center{
+
+.third-fourth .cont-right .center {
     transform: rotate(45deg);
     margin-right: -0.3rem;
 }
-.third-fourth .cont-right .right{
+
+.third-fourth .cont-right .right {
     margin-left: 0;
 }
-.third-fourth .fourth-cont .right .top i{
+
+.third-fourth .fourth-cont .right .top i {
     color: #3aa5ef;
     font-size: 1rem;
 }
 
 /* 外科 */
-.waike{
+.waike {
     display: flex;
     display: -webkit-flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding-top: 1rem;
 }
-.waike div{
+
+.waike div {
     width: 50%;
 }
-.waike .waike-right h3{
+
+.waike .waike-right h3 {
     padding-top: 1.4rem;
     color: #3e3a39;
     font-size: 0.9375rem;
 }
-.waike .waike-right img{
+
+.waike .waike-right img {
     height: 1.3rem;
     padding-bottom: 0.5rem;
     padding-right: 0.4rem;
 }
-.waike .waike-right p{
+
+.waike .waike-right p {
     text-align: center;
     color: #3e3a39;
     font-size: 0.9375rem;
 }
-.waike .waike-right .waike-right-xiao{
+
+.waike .waike-right .waike-right-xiao {
     font-size: 0.8rem;
 }
 
 /* 普外科 */
-.puwaike .waike-right p{
+.puwaike .waike-right p {
     font-size: 0.8125rem;
     padding: 0;
     line-height: 1.5rem;
 }
-.puwaike .waike-right h3{
+
+.puwaike .waike-right h3 {
     font-size: 2.8rem;
     padding-top: 0;
     line-height: 3rem;
     font-family: 'SimSun';
+}
+
+/* 妇科 */
+.second-fuke .second-title {
+    width: 12.5rem;
+}
+
+.second-fuke .second-cont .cont-left .shanchang {
+    line-height: 1rem;
+}
+
+.second-fuke .second-cont .cont-left .headbottom {
+    line-height: 1.1rem;
+}
+
+.second-fuke-bottom {
+    width: 19.25rem;
+    height: auto;
+    overflow: hidden;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 1.125rem;
+}
+
+.second-fuke-bottom .item {
+    width: 6.25rem;
+    height: 5rem;
+    background-color: #e1f2ff;
+    margin-right: 0.25rem;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+}
+
+.second-fuke-bottom .item:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.second-fuke-bottom .item img {
+    width: 1.3125rem;
+}
+
+.second-fuke-bottom .item span {
+    font-weight: bold;
+    color: #3e3a39;
+    font-size: 0.8125rem;
+}
+
+.second-fuke-bottom .item p {
+    font-size: 0.625rem;
+    color: #3e3a39;
+    text-align: justify;
+}
+
+.third-fuke {
+    width: 100%;
+    height: auto;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 1.1875rem;
+}
+
+.third-fuke .third-fuke-item {
+    width: 33.3%;
+    height: 4.5rem;
+    text-align: center;
+    color: #3e3a39;
+    font-size: 0.75rem;
+    margin-top: 1.125rem;
+}
+
+.third-fuke .third-fuke-item .third-fuke-item-circle {
+    width: 3.25rem;
+    height: 3.25rem;
+    margin: 0 auto;
+    border: 1px solid #ceeafc;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #ceeafc;
+    margin-bottom: 0.4rem;
+    overflow: hidden;
+}
+
+.third-third-fuke {
+    position: relative;
+    padding-bottom: 0;
+}
+
+.third-third-fuke img {
+    padding-top: 1rem;
+}
+
+.third-third-fuke .third-third-fuke-title {
+    position: absolute;
+    left: 0;
+    bottom: 4rem;
+    width: 10.8125rem;
+    height: 2.9375rem;
+    background: rgba(202, 238, 255, .7);
+}
+
+.third-third-fuke .third-third-fuke-title .third-fuke-con1 {
+    font-size: 0.9375rem;
+    color: #000;
+    text-align: center;
+    padding: 0;
+    line-height: 1.2rem;
+    padding-top: 0.2rem;
+}
+
+.third-third-fuke .third-third-fuke-title .third-fuke-con2 {
+    font-size: 0.8125rem;
+    color: #000;
+    text-align: center;
+    padding: 0;
+    line-height: 1.4rem;
+}
+
+.third-second-fuke {
+    padding-bottom: 1rem;
+}
+
+.third-second-fuke .waike-right h3 {
+    padding-top: 1rem;
+}
+
+.waike-left {
+    position: relative;
+}
+
+.waike-left .right-arrow {
+    position: absolute;
+    bottom: 2.5rem;
+    right: -0.75rem;
+    width: 1.3125rem;
+}
+
+.waike-left .left-arrow {
+    position: absolute;
+    bottom: 2.5rem;
+    left: -0.75rem;
+    width: 1.3125rem;
+}
+
+/* 口腔科 */
+.third-first-kqk {
+    padding-bottom: 0;
+
+}
+
+.third-first-kqk .third-first-kqk-cont {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.third-first-kqk .kqk-item {
+    width: 5.6875rem;
+    height: 4.0625rem;
+    margin-right: 0.7rem;
+    border-radius: .3rem;
+    margin-top: 1.5rem;
+    position: relative;
+    z-index: 10;
+}
+
+.third-first-kqk .kqk-item .item-line {
+    width: 5.5625rem;
+    height: 3.9375rem;
+    border: 2px solid #58c2f5;
+    border-radius: .3rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.third-first-kqk .kqk-item .item-bg {
+    width: 5.6875rem;
+    height: 4.0625rem;
+    border-radius: .3rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 0.4rem;
+    background-color: #bdeaff;
+    z-index: -1;
+}
+
+.third-first-kqk .kqk-item p {
+    text-align: center;
+    padding-top: 1.4rem;
+    z-index: 100;
+}
+
+.third-first-kqk .kqk-item:nth-child(2) p {
+    padding-top: 0.9rem;
+}
+
+.third-first-kqk .kqk-item:nth-child(3) {
+    margin-right: 0;
+}
+
+.third-first-kqk .kqk-item:nth-child(3) p {
+    padding-top: 0.9rem;
+}
+
+.third-first-kqk .kqk-item:nth-child(4) {
+    margin-right: 2rem;
+    margin-left: 2.5rem;
+}
+
+.third-first-kqk .kqk-item:nth-child(4) p {
+    padding-top: 0.9rem;
+}
+
+.second-kqk .second-title {
+    width: 11.8rem;
+    background-color: #0064a7;
+}
+
+.second-kqk .head {
+    padding-bottom: 0.3rem;
+}
+
+.second-kqk .shanchang {
+    line-height: 1.2rem;
+}
+
+.third-third-kqk {
+    padding-bottom: 0;
+}
+
+.kqk-bottom {
+    padding-bottom: 1.5rem;
 }
