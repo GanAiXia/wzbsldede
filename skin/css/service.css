@@ -616,18 +616,21 @@
 }
 
 /* 儿科*/
-.erke{
+.erke {
     width: 100%;
     overflow: hidden;
 }
-.erke .erke-circle{
+
+.erke .erke-circle {
     width: 100%;
     display: -webkit-flex;
     display: flex;
-    flex-direction: row;flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding-top: 1.5rem;
 }
-.erke .erke-circle .circle-item{
+
+.erke .erke-circle .circle-item {
     width: 4.25rem;
     height: 4.25rem;
     border: 1px solid #ceeafc;
@@ -636,15 +639,68 @@
     margin-bottom: 2rem;
     box-shadow: 0 0 10px #ceeafc;
 }
-.erke .erke-circle .circle-item p{
+
+.erke .erke-circle .circle-item p {
     text-align: center;
     color: #3e3a39;
     font-size: 0.9375rem;
     padding-top: 0.7rem;
 }
-.erke .erke-circle .circle-item:nth-last-child(1) p{
+
+.erke .erke-circle .circle-item:nth-last-child(1) p {
     padding-top: 1.3rem;
 }
-.erke-doc .second-cont .cont-left .shanchang{
+
+.erke-doc .second-cont .cont-left .shanchang {
     font-size: 0.75rem;
+}
+
+/* 美容外科 */
+.mrwk7 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mrwk7 .mrwk-item {
+    width: 4.375rem;
+    height: 3.6875rem;
+    border-radius: 0.3rem;
+    background: linear-gradient(to top, #559ada, #7fc1f3);
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+}
+.mrwk7 .mrwk-item:nth-child(4){
+    margin-right: 0;
+}
+.mrwk7 .mrwk-item img{
+    padding-top: 0.2rem;
+}
+
+.mrwk7 .mrwk-item p {
+    text-align: center;
+    color: #fff;
+    font-size: 0.875rem;
+    padding: 0;
+}
+.mrwk7 .mrwk-item:nth-child(4) p{
+    font-size: 0.7rem;
+    padding-top: 0.2rem;
+}
+.mrwk7 .mrwk-item:nth-child(7) p{
+    font-size: 0.7rem;
+    padding-top: 0.2rem;
+}
+#mrwk-doc{
+    height: 10.25rem;
+    margin: 0 auto;
+    border: 1px solid #dcdcdc;
+}
+#mrwk-doc .second-cont{
+    border: 0;
 }
