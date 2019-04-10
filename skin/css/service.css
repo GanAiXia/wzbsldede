@@ -614,3 +614,37 @@
 .kqk-bottom {
     padding-bottom: 1.5rem;
 }
+
+/* 儿科*/
+.erke{
+    width: 100%;
+    overflow: hidden;
+}
+.erke .erke-circle{
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;flex-wrap: wrap;
+    padding-top: 1.5rem;
+}
+.erke .erke-circle .circle-item{
+    width: 4.25rem;
+    height: 4.25rem;
+    border: 1px solid #ceeafc;
+    margin: 0 1.125rem;
+    border-radius: 2.125rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 10px #ceeafc;
+}
+.erke .erke-circle .circle-item p{
+    text-align: center;
+    color: #3e3a39;
+    font-size: 0.9375rem;
+    padding-top: 0.7rem;
+}
+.erke .erke-circle .circle-item:nth-last-child(1) p{
+    padding-top: 1.3rem;
+}
+.erke-doc .second-cont .cont-left .shanchang{
+    font-size: 0.75rem;
+}
