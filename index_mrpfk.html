@@ -94,21 +94,41 @@
         <!-- 第二部分 医生 -->
         <div class="second">
             <div class="second-title"><span>美肤医生 让您的肌肤问题无所遁形</span></div>
-            <div class="second-cont">
-                <div class="cont-left">
-                    <div class="head">
-                        <h2>刘素金</h2><span>医师</span>
-                    </div>
-                    <p class="headbottom">温州伯思立医院美容皮肤科医师</p>
-                    <!-- <p class="shanchang">擅长</p>
-                    <p class="shanchang">心血管、肾脏病</p>
-                    <p class="shanchang">老年病的治疗等</p> -->
 
-                    <a href="/bslys/fssks/mrpfk/52.html" class="xiangqing"> 查看详情+ </a>
+            <!-- Swiper -->
+            <div class="swiper-container" id="mrwk-doc">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="second-cont">
+                            <div class="cont-left">
+                                <div class="head">
+                                    <h2>刘素金</h2><span>医师</span>
+                                </div>
+                                <p class="headbottom">温州伯思立医院美容皮肤科医师</p>
+                                <a href="/bslys/fssks/mrpfk/52.html" class="xiangqing"> 查看详情+ </a>
+                            </div>
+                            <div class="cont-right">
+                                <img src="/skin/images/service/mrpfk2.png" alt="" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="second-cont">
+                            <div class="cont-left">
+                                <div class="head">
+                                    <h2>陈 辉</h2><span>医师</span>
+                                </div>
+                                <p class="headbottom">温州伯思立医院</p>
+                                <p class="headbottom">美容皮肤科主治医师</p>
+                                <a href="/bslys/fssks/mrpfk/53.html" class="xiangqing"> 查看详情+ </a>
+                            </div>
+                            <div class="cont-right">
+                                <img src="/skin/images/service/mrpfk-ch.png" alt="" width="100%">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="cont-right">
-                    <img src="/skin/images/service/mrpfk2.png" alt="" width="100%">
-                </div>
+                <div class="swiper-pagination"></div>
             </div>
             <div class="second-bottom">
                 <a href="/bslys/fssks/mrpfk/">点击查看更多</a>
@@ -233,6 +253,19 @@
     <script src="/skin/js/swiper.min.js"></script>
     <script src="/skin/js/common.js"></script>
     <script>
+        var swiper2 = new Swiper('#mrwk-doc', {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            }
+        });
         $(".circle").on("touchstart", function () {
             $(this).addClass("heartBeat animated");
         });
@@ -244,13 +277,13 @@
         });
         $(".left").on("touchend", function () {
             $(this).removeClass("rotateIn animated");
-        });  
+        });
         $(".shebei").on("touchstart", function () {
             $(this).addClass("flip animated");
         });
         $(".shebei").on("touchend", function () {
             $(this).removeClass("flip animated");
-        });   
+        });
         $(".third-firstimg").on("touchstart", function () {
             $(this).addClass("pulse animated");
         });
@@ -262,7 +295,7 @@
         });
         $(".third-secondimg").on("touchend", function () {
             $(this).removeClass("shake animated");
-        });  
+        });
     </script>
 
 </body>
